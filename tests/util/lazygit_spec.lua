@@ -4,9 +4,9 @@ _G.LazyVim = require("lazyvim.util")
 
 -- stylua: ignore
 local git_remotes_cases = {
-  ["https://github.com/LazyVim/LazyVim.git"]                             = "https://github.com/LazyVim/LazyVim",
-  ["https://github.com/LazyVim/LazyVim"]                                 = "https://github.com/LazyVim/LazyVim",
-  ["git@github.com:LazyVim/LazyVim"]                                     = "https://github.com/LazyVim/LazyVim",
+  ["https://github.com/lichtquanten/LazyVim.git"]                             = "https://github.com/lichtquanten/LazyVim",
+  ["https://github.com/lichtquanten/LazyVim"]                                 = "https://github.com/lichtquanten/LazyVim",
+  ["git@github.com:lichtquanten/LazyVim"]                                     = "https://github.com/lichtquanten/LazyVim",
   ["git@ssh.dev.azure.com:v3/neovim-org/owner/repo"]                     = "https://dev.azure.com/neovim-org/owner/_git/repo",
   ["https://folkelemaitre@bitbucket.org/samiulazim/neovim.git"]          = "https://bitbucket.org/samiulazim/neovim",
   ["git@bitbucket.org:samiulazim/neovim.git"]                            = "https://bitbucket.org/samiulazim/neovim",
